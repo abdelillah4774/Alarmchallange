@@ -1,0 +1,15 @@
+packages:
+  "framer-motion": "For smooth page transitions, list animations, and the ringing alarm overlay effects"
+  "date-fns": "For easier time manipulation and formatting"
+  "canvas-confetti": "For visual celebration when a challenge is successfully completed"
+  "@types/canvas-confetti": "Types for canvas-confetti"
+
+images:
+  - path: "artifacts/alarm-challenge/public/images/hero-bg.png"
+    description: "Dark moody abstract background with neon green and purple geometric lines for a modern tech feel"
+    aspect_ratio: "16:9"
+
+notes:
+  - "Assuming @workspace/api-client-react is available and correctly exports the generated hooks"
+  - "RTL layout applied globally for Arabic support"
+  - "Using logical CSS properties (start/end) instead of directional (left/right) for RTL compatibility"
